@@ -2,17 +2,19 @@ import './App.css'
 import ElementosFloresta from './ElementosFloresta';
 import { useEffect } from 'react';
 
-
 function Floresta() {
 
-    useEffect(() => {
+
+    useEffect(() => {    
+        var link = "/src/assets/particlesJs/particles.js"
+        var link2 = "/src/assets/particlesJs/app.js"
         const script = document.createElement("script");
-        script.src = "/src/assets/particlesJs/particles.js";
+        script.src = link;
         script.async = true;
         document.body.appendChild(script);
 
         const script2 = document.createElement("script");
-        script2.src = "/src/assets/particlesJs/app.js";
+        script2.src = link2;
         script2.async = true;
         document.body.appendChild(script2);
         
