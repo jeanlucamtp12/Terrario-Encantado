@@ -6,10 +6,13 @@ import Particle from './assets/particlesJs/Particle';
 function Floresta() {
 
     return (
+        <div>
         <div className="floresta-container"> 
             <Particle  id="tsparticles" />
             <ElementosFloresta />
         </div>
+        </div>
+
     )
 }
 
