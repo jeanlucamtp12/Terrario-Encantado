@@ -1,16 +1,28 @@
 import './App.css'
 import ElementosFloresta from './ElementosFloresta';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Particle from './assets/particlesJs/Particle';
+import Loading from './Loading';
 
 function Floresta() {
 
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const timeoutId = setTimeout(() => {
+            setLoading(false);
+        }, 5000);
+
+        return () => clearTimeout(timeoutId);
+    }, []);
+
     return (
         <div>
-        <div className="floresta-container"> 
-            <Particle  id="tsparticles" />
-            <ElementosFloresta />
-        </div>
+            <div className="floresta-container">
+                {loading && <Loading id="loader" />}
+                <Particle id="tsparticles" />
+                <ElementosFloresta />
+            </div>
         </div>
 
     )

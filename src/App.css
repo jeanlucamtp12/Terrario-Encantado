@@ -227,10 +227,11 @@ img {
 
 #dino {
   position: absolute;
-  width: 140px;
+  width: 170px;
   z-index: 2;
-  right: 2%;
-  bottom: 1%;
+  left: 2%;
+  bottom: 2%;
+  transform: scaleX(-1);
 }
 
 #dino_voador {
@@ -287,6 +288,7 @@ img {
 }
 
 .loader{
+  position: absolute;
   width: 600px;
   height: 400px;
   background-color: #5BAF7E;
@@ -294,6 +296,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 4;
 }
 
 .loader img{

@@ -2,18 +2,8 @@ import { useEffect, useState } from 'react'
 import audioSrc from './assets/som/tema.mp3'
 
 import Floresta from './Floresta'
-import Loading from './Loading';
 
 function App() {
-
-  const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        setTimeout(() => setLoading(false), 4000);
-    }, [])
-    if (loading) {
-        return <Loading/>
-    }
 
 
   document.addEventListener('click', musicPlay);

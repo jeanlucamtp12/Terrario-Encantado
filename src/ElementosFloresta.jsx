@@ -35,6 +35,7 @@ function ElementosFloresta() {
                             bottom: "0%",
                             width: "8%",
                             left: `${i * 7}%`,
+                            zIndex: "3",
 
                         }}
                     />
