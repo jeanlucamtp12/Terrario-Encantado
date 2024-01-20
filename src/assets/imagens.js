@@ -17,3 +17,4 @@ export { default as passaro } from './animais/passaro.gif';
 export { default as sapo } from './animais/sapo.gif';
 
 
+export { default as loading } from './loading.gif';
