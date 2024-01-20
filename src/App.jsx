@@ -3,6 +3,7 @@ import audioSrc from './assets/som/tema.mp3'
 
 import Floresta from './Floresta'
 
+
 function App() {
 
   document.addEventListener('click', musicPlay);

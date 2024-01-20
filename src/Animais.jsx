@@ -12,7 +12,7 @@ function Animais(){
             setHoraAtual(new Date().getHours());
         }
 
-        const intervaloAtt = setInterval(atualizaHora, 60000);
+        const intervaloAtt = setInterval(atualizaHora, 120000);
 
         return () => clearInterval(intervaloAtt);
     }, []);

@@ -254,7 +254,7 @@ img {
   z-index: 2;
   right: 62%;
   top: 5%;
-  animation: moverAnimais 210s linear infinite;
+  animation: moverAnimais 50s linear infinite;
 }
 
 #passaro {
@@ -270,8 +270,8 @@ img {
   position: absolute;
   width: 65px;
   z-index: 3;
-  bottom: -1%;
-  animation: moverAnimais 310s linear infinite;
+  bottom: 0%;
+  animation: moverAnimais 110s linear infinite;
 }
 
 #sapo {
