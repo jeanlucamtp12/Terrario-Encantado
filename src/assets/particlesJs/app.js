@@ -16,6 +16,7 @@ particlesJS.load('particles-js', './src/assets/particlesJs/particles.json', func
 });
 
 
+
 particlesJS('particles-js',
   
   {
