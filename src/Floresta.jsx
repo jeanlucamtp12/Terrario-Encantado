@@ -19,6 +19,7 @@ function Floresta() {
     return (
         <div>
             <div className="floresta-container">
+                <div className='telaTransparente'></div>
                 {loading && <Loading id="loader" />}
                 <Particle id="tsparticles" />
                 <ElementosFloresta />

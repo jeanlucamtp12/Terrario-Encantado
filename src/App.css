@@ -47,6 +47,14 @@ img {
   animation: trocaCoresCenario 15s infinite linear;
 }
 
+.telaTransparente{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 4;
+}
+
 @keyframes trocaCoresCenario {
 
   0% {
