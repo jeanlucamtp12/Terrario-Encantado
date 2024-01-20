@@ -1,14 +1,16 @@
 import Animais from "./Animais";
+import { nuvem, arvore1, arvore2, arvore3, cogumelo, mato } from './assets/imagens';
+
 
 const elementos = [
-    { id: 'nuvem1', src: '../src/assets/nuvem.png', className: 'ceu' },
-    { id: 'nuvem2', src: '../src/assets/nuvem.png', className: 'ceu' },
-    { id: 'nuvem3', src: '../src/assets/nuvem.png', className: 'ceu' },
-    { id: 'nuvem4', src: '../src/assets/nuvem.png', className: 'ceu' },
-    { id: 'arv1', src: '../src/assets/arvore1.png', className: 'chao' },
-    { id: 'arv2', src: '../src/assets/arvore2.png', className: 'chao' },
-    { id: 'arv3', src: '../src/assets/arvore3.png', className: 'chao' },
-    { id: 'cogumelo', src: '../src/assets/cogumelo.gif', className: 'chao' },
+    { id: 'nuvem1', src: `${nuvem}`, className: 'ceu' },
+    { id: 'nuvem2', src:  `${nuvem}`, className: 'ceu' },
+    { id: 'nuvem3', src:  `${nuvem}`, className: 'ceu' },
+    { id: 'nuvem4', src:  `${nuvem}`, className: 'ceu' },
+    { id: 'arv1', src:  `${arvore1}`, className: 'chao' },
+    { id: 'arv2', src:  `${arvore2}`, className: 'chao' },
+    { id: 'arv3', src:  `${arvore3}`, className: 'chao' },
+    { id: 'cogumelo', src:  `${cogumelo}`, className: 'chao' },
 ]
 
 const matos = Array.from({ length: 100 }, (_, index) => index);
@@ -26,7 +28,7 @@ function ElementosFloresta() {
                 {matos.map((i) => (
                     <img
                         key={i}
-                        src={`../src/assets/mato.png`}
+                        src={mato}
                         className="mato"
                         id={`mato${i}`}
                         style={{

@@ -1,10 +1,10 @@
-* {
-  user-select: none;
+body, html {
+  width: 600px;
+  height: 400px;
 }
-
 body {
-  width: 100w;
-  height: 100vh;
+  width: 600px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -266,9 +266,9 @@ img {
   transform: scaleX(-1);
 }
 
-#lesma {
+#ovelha {
   position: absolute;
-  width: 60px;
+  width: 65px;
   z-index: 3;
   bottom: -1%;
   animation: moverAnimais 310s linear infinite;
