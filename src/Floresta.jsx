@@ -6,8 +6,8 @@ function Floresta() {
 
 
     useEffect(() => {    
-        var link = "/src/assets/particlesJs/particles.js"
-        var link2 = "/src/assets/particlesJs/app.js"
+        var link = "./assets/particlesJs/particles.js"
+        var link2 = "./assets/particlesJs/app.js"
         const script = document.createElement("script");
         script.src = link;
         script.async = true;
