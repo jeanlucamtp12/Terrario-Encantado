@@ -1,3 +1,7 @@
+*{
+  user-select: none;
+}
+
 body, html {
   width: 600px;
   height: 400px;
