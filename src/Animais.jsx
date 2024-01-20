@@ -12,8 +12,7 @@ function Animais(){
             setHoraAtual(new Date().getHours());
         }
 
-        const intervaloAtt = setInterval(atualizaHora, 120000);
-
+        const intervaloAtt = setInterval(atualizaHora, 60000);
         return () => clearInterval(intervaloAtt);
     }, []);
 
@@ -40,7 +39,7 @@ function Animais(){
         } else if (horaAtual >= 5 && horaAtual <= 6) {
             setAnimal({ id: 'cachorro_dormindo', nome: `${cachorro_dormindo}` });
         } 
-    });
+    }, [horaAtual]);
 
     return (
         <div>

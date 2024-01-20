@@ -1,29 +1,13 @@
 import './App.css'
 import ElementosFloresta from './ElementosFloresta';
 import { useEffect } from 'react';
+import Particle from './assets/particlesJs/Particle';
 
 function Floresta() {
 
-
-    useEffect(() => {    
-        var link = "src/assets/particlesJs/particles.js"
-        var link2 = "src/assets/particlesJs/app.js"
-        const script = document.createElement("script");
-        script.src = link;
-        script.async = true;
-        document.body.appendChild(script);
-
-        const script2 = document.createElement("script");
-        script2.src = link2;
-        script2.async = true;
-        document.body.appendChild(script2);
-        
-    }, []);
-
-
-
     return (
-        <div className="floresta-container">
+        <div className="floresta-container"> 
+            <Particle  id="tsparticles" />
             <ElementosFloresta />
         </div>
     )
