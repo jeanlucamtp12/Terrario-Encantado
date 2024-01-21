@@ -33,8 +33,8 @@ function Particle() {
                 interactivity: {
                     events: {
                         onClick: {
-                            enable: true,
-                            mode: "push",
+                            enable: false,
+                            mode: "",
                         },
                         onHover: {
                             enable: true,

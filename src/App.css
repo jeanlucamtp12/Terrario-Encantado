@@ -318,3 +318,46 @@ img {
   font-size: 30px;
   font-style: italic;
 }
+
+.fundoBotao{
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: #5BAF7E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+  background-image: url('./assets/1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#botaoIniciar{
+  position: absolute;
+  width: 180px;
+  border-radius: 10px;
+  font-size: 20px;
+  bottom: 12%;
+  font-weight: bold;
+  animation: tremido 0.5s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes tremido {
+  0% { transform: translate(0%, 0%) rotate(0deg); }
+  20% { transform: translate(-2%, -2%) rotate(-2deg);}
+  40% { transform: translate(2%, 2%) rotate(2deg); transform: scale(1.1);}
+  60% { transform: translate(-2%, -2%) rotate(-2deg); transform: scale(1.1);}
+  80% { transform: translate(2%, 2%) rotate(2deg); }
+  100% { transform: translate(0%, 0%) rotate(0deg); }
+}
+
+.logo{
+  position: absolute;
+  width: 550px;
+  bottom: 35%;
+}
+.logo.hidden {
+  display: none;
+}

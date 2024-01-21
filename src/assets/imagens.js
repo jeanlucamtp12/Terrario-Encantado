@@ -18,3 +18,5 @@ export { default as sapo } from './animais/sapo.gif';
 
 
 export { default as loading } from './loading.gif';
+export { default as logo } from './logo.png';
+export { default as entrar } from './entrar.png'
