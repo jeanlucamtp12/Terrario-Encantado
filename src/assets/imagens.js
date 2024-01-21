@@ -7,6 +7,7 @@ export { default as mato } from './mato.png';
 
 export { default as aranha } from './animais/aranha.gif';
 export { default as cachorro_dormindo } from './animais/cachorro_dormindo.gif';
+export { default as cachorro_morto } from './animais/cachorro_morto.gif';
 export { default as cachorro } from './animais/cachorro.gif';
 export { default as dino_voador } from './animais/dino_voador.gif';
 export { default as dino } from './animais/dino.gif';

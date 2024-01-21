@@ -1,0 +1,232 @@
+#ovelha {
+    position: absolute;
+    width: 65px;
+    z-index: 3;
+    bottom: -0.5%;
+    left: 25%;
+    transform: scaleX(-1);
+}
+
+#passaro {
+    position: absolute;
+    width: 60px;
+    z-index: 2;
+    right: 14%;
+    bottom: 3%;
+    transform: scaleX(-1);
+}
+
+
+#gato {
+    position: absolute;
+    width: 60px;
+    z-index: 2;
+    right: 60%;
+    bottom: 3%;
+    animation: moverGato 8s linear infinite;
+    transform: scaleX(-1);
+}
+
+@keyframes moverGato {
+    0% {
+        right: 10%;
+    }
+
+    49% {
+        right: 80%;
+        transform: scaleX(-1);
+    }
+
+    50% {
+        right: 80%;
+        transform: scaleX(1);
+    }
+
+    99% {
+        transform: scaleX(1);
+        right: 10%;
+    }
+
+    100% {
+        transform: scaleX(-1);
+        right: 10%;
+    }
+}
+
+
+#dino {
+    position: absolute;
+    width: 130px;
+    z-index: 2;
+    left: 5%;
+    bottom: 2%;
+}
+
+#sapo {
+    position: absolute;
+    width: 85px;
+    z-index: 2;
+    right: 62%;
+    bottom: 3%;
+    transform: scaleX(-1);
+    animation: dancaSapo 8s linear infinite;
+}
+
+@keyframes dancaSapo {
+
+    0%,
+    20% {
+        right: 20%;
+    }
+
+    50%,
+    80% {
+        right: 70%;
+    }
+
+    100% {
+        right: 20%;
+    }
+}
+
+#cachorro {
+    position: absolute;
+    width: 140px;
+    z-index: 3;
+    right: 0%;
+    bottom: 0%;
+    animation: moverAnimais 8s linear infinite;
+}
+
+#dino_voador {
+    position: absolute;
+    width: 120px;
+    z-index: 2;
+    top: 5%;
+    bottom: 0%;
+    animation: moverAnimais 10s linear infinite;
+}
+
+#aranha {
+    position: absolute;
+    width: 80px;
+    z-index: 3;
+    right: 0%;
+    bottom: 0%;
+    animation: moverAnimais 30s linear infinite;
+}
+
+@keyframes moverAnimais {
+    0% {
+        right: -20%;
+    }
+
+    49% {
+        right: 100%;
+        transform: scaleX(1);
+    }
+
+    50% {
+        right: 100%;
+        transform: scaleX(-1);
+    }
+
+    99% {
+        transform: scaleX(-1);
+        right: -20%;
+    }
+
+    100% {
+        transform: scaleX(1);
+        right: -20%;
+    }
+}
+
+#morcego {
+    position: absolute;
+    width: 80px;
+    z-index: 2;
+    right: 62%;
+    top: 5%;
+    animation: moverMorcego 12s ease-in-out infinite;
+}
+
+
+@keyframes moverMorcego {
+    0% {
+        right: -20%;
+    }
+
+    20% {
+        top: 30%;
+    }
+
+    30% {
+        top: 10%;
+    }
+
+    49% {
+        right: 100%;
+        top: 35%;
+        transform: scaleX(1);
+    }
+
+    50% {
+        right: 100%;
+        transform: scaleX(-1);
+    }
+
+    60% {
+        top: 5%;
+    }
+
+    80% {
+        top: 35%;
+    }
+
+    99% {
+        transform: scaleX(-1);
+        right: -20%;
+    }
+
+    100% {
+        transform: scaleX(1);
+        right: -20%;
+    }
+}
+
+#cachorro_dormindo {
+    position: absolute;
+    width: 50px;
+    z-index: 3;
+    animation: moverMorcego 12s ease-in-out infinite;
+}
+
+
+@keyframes moverFantasmas {
+    0%, 100%{
+        top: 15%;
+    }
+    49% {
+        top: 65%;
+        transform: scaleX(1);
+    }
+
+    50% {
+        top: 65%;
+        transform: scaleX(-1);
+    }
+
+    99% {
+        transform: scaleX(-1);
+    }
+}
+
+#cachorro_morto {
+    position: absolute;
+    width: 90px;
+    z-index: 3;
+    right: 0%;
+    bottom: 0%;
+    animation: moverAnimais 8s linear infinite;
+}
