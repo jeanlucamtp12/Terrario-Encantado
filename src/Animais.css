@@ -56,9 +56,9 @@
 
 #dino {
     position: absolute;
-    width: 130px;
+    width: 170px;
     z-index: 2;
-    left: 5%;
+    left: 2%;
     bottom: 2%;
 }
 
