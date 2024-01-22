@@ -34,9 +34,9 @@ function Animais() {
         } else if (horaAtual >= 18 && horaAtual <= 19) {
             setAnimal({ id: 'cachorro', nome: `${cachorro}` });
         } else if (horaAtual >= 20 && horaAtual <= 21) {
-            setAnimal({ id: 'aranha', nome: `${aranha}` });
-        } else if (horaAtual >= 22 && horaAtual <= 23) {
             setAnimal({ id: 'morcego', nome: `${morcego}` });
+        } else if (horaAtual >= 22 && horaAtual <= 23) {
+            setAnimal({ id: 'aranha', nome: `${aranha}` });
         } else if (horaAtual >= 0 && horaAtual <= 5) {
             setAnimal({ id: 'cachorro_dormindo', nome: `${cachorro_dormindo}` });
         }
