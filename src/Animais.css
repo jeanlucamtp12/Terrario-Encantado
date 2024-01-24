@@ -1,9 +1,9 @@
 #ovelha {
     position: absolute;
-    width: 65px;
-    z-index: 3;
-    bottom: -0.5%;
-    left: 25%;
+    width: 70px;
+    z-index: 2;
+    bottom: 3%;
+    left: 27.5%;
     transform: scaleX(-1);
 }
 

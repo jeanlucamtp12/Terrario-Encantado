@@ -20,13 +20,13 @@ function Animais() {
     useEffect(() => {
 
         if (horaAtual >= 6 && horaAtual <= 7) {            
-            setAnimal({ id: 'passaro', nome: `${passaro}` });
+            setAnimal({ id: 'ovelha', nome: `${ovelha}` });
         } else if (horaAtual >= 8 && horaAtual <= 9) {
             setAnimal({ id: 'dino_voador', nome: `${dino_voador}` });
         } else if (horaAtual >= 10 && horaAtual <= 11) {
-            setAnimal({ id: 'dino', nome: `${dino}` });
+            setAnimal({ id: 'passaro', nome: `${passaro}` });
         } else if (horaAtual >= 12 && horaAtual <= 13) {            
-            setAnimal({ id: 'ovelha', nome: `${ovelha}` });
+            setAnimal({ id: 'dino', nome: `${dino}` });
         } else if (horaAtual >= 14 && horaAtual <= 15) {
             setAnimal({ id: 'gato', nome: `${gato}` });
         } else if (horaAtual >= 16 && horaAtual <= 17) {
